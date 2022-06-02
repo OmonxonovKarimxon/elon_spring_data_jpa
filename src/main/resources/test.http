@@ -1,0 +1,39 @@
+
+
+POST localhost:8080/main/create
+Content-Type: application/json
+
+{
+  "name": "karimxon",
+  "surname": "omonxonov",
+  "phoneNumber": "12345678",
+  "password": "1234"
+}
+###
+GET localhost:8080/main/allPost
+###
+POST localhost:8080/post/create
+Content-Type: application/json
+
+{
+  "title": "egergerg",
+  "price": 500000,
+  "description":"yangi telefon",
+  "userPhone": "12345678"
+
+}
+###
+PUT localhost:8080/post/update/1
+Content-Type: application/json
+
+{
+
+  "price": 5000123
+
+
+}
+###
+GET localhost:8080/post/postList/12345678
+
+###
+DELETE localhost:8080/post/delete/2
